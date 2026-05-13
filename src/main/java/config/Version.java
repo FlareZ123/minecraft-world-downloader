@@ -16,6 +16,13 @@ public enum Version {
     V1_20_4(765, 3698),
     V1_20_6(766, 3839),
     V1_21(767, 3953),
+
+    /**
+     * First release in Mojang's calendar-versioned Java Edition line.
+     * <p>
+     * Verified against the 26.1.2 server jar version metadata: protocol 775 and world/data version 4790.
+     */
+    V26_1(775, 4790),
     ANY(0, 0);
 
     public final int dataVersion;
